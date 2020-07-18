@@ -8,7 +8,7 @@ class Game extends React.Component {
     super(props);
 
     this.state = {
-      time: 0,
+      time: undefined,
       pancakes: [],
       cooked: 0,
       burnt: 0,
