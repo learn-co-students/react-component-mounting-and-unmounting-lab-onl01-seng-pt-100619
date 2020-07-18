@@ -61,7 +61,7 @@ class Pancake extends React.Component {
   };
 
   componentWillUnmount() {
-    this.clearInterval
+    clearInterval(this.interval)
   }
 
 
